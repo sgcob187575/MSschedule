@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12BA2D1024FA352300CCFBB0 /* MSscheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D0F24FA352300CCFBB0 /* MSscheduleApp.swift */; };
+		12BA2D1224FA352300CCFBB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D1124FA352300CCFBB0 /* ContentView.swift */; };
+		12BA2D1424FA352300CCFBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BA2D1324FA352300CCFBB0 /* Assets.xcassets */; };
+		12BA2D1724FA352300CCFBB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BA2D1624FA352300CCFBB0 /* Preview Assets.xcassets */; };
+		12BA2D1924FA352300CCFBB0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D1824FA352300CCFBB0 /* Persistence.swift */; };
+		12BA2D1C24FA352300CCFBB0 /* MSschedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D1A24FA352300CCFBB0 /* MSschedule.xcdatamodeld */; };
+		12BA2D2724FA352400CCFBB0 /* MSscheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D2624FA352400CCFBB0 /* MSscheduleTests.swift */; };
+		12BA2D3224FA352400CCFBB0 /* MSscheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D3124FA352400CCFBB0 /* MSscheduleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12BA2D2324FA352400CCFBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12BA2D0424FA352300CCFBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BA2D0B24FA352300CCFBB0;
+			remoteInfo = MSschedule;
+		};
+		12BA2D2E24FA352400CCFBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12BA2D0424FA352300CCFBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BA2D0B24FA352300CCFBB0;
+			remoteInfo = MSschedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12BA2D0C24FA352300CCFBB0 /* MSschedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSschedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BA2D0F24FA352300CCFBB0 /* MSscheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSscheduleApp.swift; sourceTree = "<group>"; };
+		12BA2D1124FA352300CCFBB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12BA2D1324FA352300CCFBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12BA2D1624FA352300CCFBB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12BA2D1824FA352300CCFBB0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		12BA2D1B24FA352300CCFBB0 /* MSschedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MSschedule.xcdatamodel; sourceTree = "<group>"; };
+		12BA2D1D24FA352300CCFBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12BA2D2224FA352400CCFBB0 /* MSscheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSscheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BA2D2624FA352400CCFBB0 /* MSscheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSscheduleTests.swift; sourceTree = "<group>"; };
+		12BA2D2824FA352400CCFBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12BA2D2D24FA352400CCFBB0 /* MSscheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSscheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BA2D3124FA352400CCFBB0 /* MSscheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSscheduleUITests.swift; sourceTree = "<group>"; };
+		12BA2D3324FA352400CCFBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12BA2D0924FA352300CCFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BA2D1F24FA352400CCFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BA2D2A24FA352400CCFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12BA2D0324FA352300CCFBB0 = {
+			isa = PBXGroup;
+			children = (
+				12BA2D0E24FA352300CCFBB0 /* MSschedule */,
+				12BA2D2524FA352400CCFBB0 /* MSscheduleTests */,
+				12BA2D3024FA352400CCFBB0 /* MSscheduleUITests */,
+				12BA2D0D24FA352300CCFBB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12BA2D0D24FA352300CCFBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D0C24FA352300CCFBB0 /* MSschedule.app */,
+				12BA2D2224FA352400CCFBB0 /* MSscheduleTests.xctest */,
+				12BA2D2D24FA352400CCFBB0 /* MSscheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12BA2D0E24FA352300CCFBB0 /* MSschedule */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D0F24FA352300CCFBB0 /* MSscheduleApp.swift */,
+				12BA2D1124FA352300CCFBB0 /* ContentView.swift */,
+				12BA2D1324FA352300CCFBB0 /* Assets.xcassets */,
+				12BA2D1824FA352300CCFBB0 /* Persistence.swift */,
+				12BA2D1D24FA352300CCFBB0 /* Info.plist */,
+				12BA2D1A24FA352300CCFBB0 /* MSschedule.xcdatamodeld */,
+				12BA2D1524FA352300CCFBB0 /* Preview Content */,
+			);
+			path = MSschedule;
+			sourceTree = "<group>";
+		};
+		12BA2D1524FA352300CCFBB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D1624FA352300CCFBB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12BA2D2524FA352400CCFBB0 /* MSscheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D2624FA352400CCFBB0 /* MSscheduleTests.swift */,
+				12BA2D2824FA352400CCFBB0 /* Info.plist */,
+			);
+			path = MSscheduleTests;
+			sourceTree = "<group>";
+		};
+		12BA2D3024FA352400CCFBB0 /* MSscheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D3124FA352400CCFBB0 /* MSscheduleUITests.swift */,
+				12BA2D3324FA352400CCFBB0 /* Info.plist */,
+			);
+			path = MSscheduleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12BA2D0B24FA352300CCFBB0 /* MSschedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BA2D3624FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSschedule" */;
+			buildPhases = (
+				12BA2D0824FA352300CCFBB0 /* Sources */,
+				12BA2D0924FA352300CCFBB0 /* Frameworks */,
+				12BA2D0A24FA352300CCFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSschedule;
+			productName = MSschedule;
+			productReference = 12BA2D0C24FA352300CCFBB0 /* MSschedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12BA2D2124FA352400CCFBB0 /* MSscheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BA2D3924FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSscheduleTests" */;
+			buildPhases = (
+				12BA2D1E24FA352400CCFBB0 /* Sources */,
+				12BA2D1F24FA352400CCFBB0 /* Frameworks */,
+				12BA2D2024FA352400CCFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12BA2D2424FA352400CCFBB0 /* PBXTargetDependency */,
+			);
+			name = MSscheduleTests;
+			productName = MSscheduleTests;
+			productReference = 12BA2D2224FA352400CCFBB0 /* MSscheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12BA2D2C24FA352400CCFBB0 /* MSscheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BA2D3C24FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSscheduleUITests" */;
+			buildPhases = (
+				12BA2D2924FA352400CCFBB0 /* Sources */,
+				12BA2D2A24FA352400CCFBB0 /* Frameworks */,
+				12BA2D2B24FA352400CCFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12BA2D2F24FA352400CCFBB0 /* PBXTargetDependency */,
+			);
+			name = MSscheduleUITests;
+			productName = MSscheduleUITests;
+			productReference = 12BA2D2D24FA352400CCFBB0 /* MSscheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12BA2D0424FA352300CCFBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					12BA2D0B24FA352300CCFBB0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					12BA2D2124FA352400CCFBB0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 12BA2D0B24FA352300CCFBB0;
+					};
+					12BA2D2C24FA352400CCFBB0 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 12BA2D0B24FA352300CCFBB0;
+					};
+				};
+			};
+			buildConfigurationList = 12BA2D0724FA352300CCFBB0 /* Build configuration list for PBXProject "MSschedule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12BA2D0324FA352300CCFBB0;
+			productRefGroup = 12BA2D0D24FA352300CCFBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12BA2D0B24FA352300CCFBB0 /* MSschedule */,
+				12BA2D2124FA352400CCFBB0 /* MSscheduleTests */,
+				12BA2D2C24FA352400CCFBB0 /* MSscheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12BA2D0A24FA352300CCFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BA2D1724FA352300CCFBB0 /* Preview Assets.xcassets in Resources */,
+				12BA2D1424FA352300CCFBB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BA2D2024FA352400CCFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BA2D2B24FA352400CCFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12BA2D0824FA352300CCFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BA2D1C24FA352300CCFBB0 /* MSschedule.xcdatamodeld in Sources */,
+				12BA2D1924FA352300CCFBB0 /* Persistence.swift in Sources */,
+				12BA2D1224FA352300CCFBB0 /* ContentView.swift in Sources */,
+				12BA2D1024FA352300CCFBB0 /* MSscheduleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BA2D1E24FA352400CCFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BA2D2724FA352400CCFBB0 /* MSscheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BA2D2924FA352400CCFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BA2D3224FA352400CCFBB0 /* MSscheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12BA2D2424FA352400CCFBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BA2D0B24FA352300CCFBB0 /* MSschedule */;
+			targetProxy = 12BA2D2324FA352400CCFBB0 /* PBXContainerItemProxy */;
+		};
+		12BA2D2F24FA352400CCFBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BA2D0B24FA352300CCFBB0 /* MSschedule */;
+			targetProxy = 12BA2D2E24FA352400CCFBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12BA2D3424FA352400CCFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12BA2D3524FA352400CCFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12BA2D3724FA352400CCFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MSschedule/Preview Content\"";
+				DEVELOPMENT_TEAM = NTXR9F489V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MSschedule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dte.MSschedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12BA2D3824FA352400CCFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MSschedule/Preview Content\"";
+				DEVELOPMENT_TEAM = NTXR9F489V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MSschedule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dte.MSschedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12BA2D3A24FA352400CCFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTXR9F489V;
+				INFOPLIST_FILE = MSscheduleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dte.MSscheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSschedule.app/MSschedule";
+			};
+			name = Debug;
+		};
+		12BA2D3B24FA352400CCFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTXR9F489V;
+				INFOPLIST_FILE = MSscheduleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dte.MSscheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSschedule.app/MSschedule";
+			};
+			name = Release;
+		};
+		12BA2D3D24FA352400CCFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTXR9F489V;
+				INFOPLIST_FILE = MSscheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dte.MSscheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MSschedule;
+			};
+			name = Debug;
+		};
+		12BA2D3E24FA352400CCFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTXR9F489V;
+				INFOPLIST_FILE = MSscheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dte.MSscheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MSschedule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12BA2D0724FA352300CCFBB0 /* Build configuration list for PBXProject "MSschedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BA2D3424FA352400CCFBB0 /* Debug */,
+				12BA2D3524FA352400CCFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BA2D3624FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSschedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BA2D3724FA352400CCFBB0 /* Debug */,
+				12BA2D3824FA352400CCFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BA2D3924FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSscheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BA2D3A24FA352400CCFBB0 /* Debug */,
+				12BA2D3B24FA352400CCFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BA2D3C24FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSscheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BA2D3D24FA352400CCFBB0 /* Debug */,
+				12BA2D3E24FA352400CCFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12BA2D1A24FA352300CCFBB0 /* MSschedule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12BA2D1B24FA352300CCFBB0 /* MSschedule.xcdatamodel */,
+			);
+			currentVersion = 12BA2D1B24FA352300CCFBB0 /* MSschedule.xcdatamodel */;
+			path = MSschedule.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12BA2D0424FA352300CCFBB0 /* Project object */;
+}
