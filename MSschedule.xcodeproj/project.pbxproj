@@ -3,18 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		12BA2D1024FA352300CCFBB0 /* MSscheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D0F24FA352300CCFBB0 /* MSscheduleApp.swift */; };
-		12BA2D1224FA352300CCFBB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D1124FA352300CCFBB0 /* ContentView.swift */; };
 		12BA2D1424FA352300CCFBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BA2D1324FA352300CCFBB0 /* Assets.xcassets */; };
 		12BA2D1724FA352300CCFBB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BA2D1624FA352300CCFBB0 /* Preview Assets.xcassets */; };
 		12BA2D1924FA352300CCFBB0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D1824FA352300CCFBB0 /* Persistence.swift */; };
 		12BA2D1C24FA352300CCFBB0 /* MSschedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D1A24FA352300CCFBB0 /* MSschedule.xcdatamodeld */; };
 		12BA2D2724FA352400CCFBB0 /* MSscheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D2624FA352400CCFBB0 /* MSscheduleTests.swift */; };
 		12BA2D3224FA352400CCFBB0 /* MSscheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D3124FA352400CCFBB0 /* MSscheduleUITests.swift */; };
+		12BA2D4124FA430400CCFBB0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 12BA2D4024FA430400CCFBB0 /* Kingfisher */; };
+		12BA2D4324FA430400CCFBB0 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 12BA2D4224FA430400CCFBB0 /* KingfisherSwiftUI */; };
+		12BA2D6724FA4AF300CCFBB0 /* TravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D6624FA4AF300CCFBB0 /* TravelView.swift */; };
+		12BA2D6924FA4B8200CCFBB0 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D6824FA4B8200CCFBB0 /* MotherView.swift */; };
+		12BA2D6B24FA4BAE00CCFBB0 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D6A24FA4BAE00CCFBB0 /* DataStructure.swift */; };
+		12BA2D7424FA4CFC00CCFBB0 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D7324FA4CFC00CCFBB0 /* LocationView.swift */; };
+		12BA2D7624FA4DD700CCFBB0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D7524FA4DD700CCFBB0 /* LocationManager.swift */; };
+		12BA2D7A24FA4E0D00CCFBB0 /* NetWorkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D7924FA4E0D00CCFBB0 /* NetWorkClass.swift */; };
+		12BA2D7C24FA4E3E00CCFBB0 /* IGviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D7B24FA4E3E00CCFBB0 /* IGviewModel.swift */; };
+		12BA2D7E24FA4E6D00CCFBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BA2D7D24FA4E6D00CCFBB0 /* Main.storyboard */; };
+		12BA2D8224FA4EE100CCFBB0 /* WallCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D8124FA4EE100CCFBB0 /* WallCollectionViewController.swift */; };
+		12BA2D8424FA4F3A00CCFBB0 /* WallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D8324FA4F3A00CCFBB0 /* WallCollectionViewCell.swift */; };
+		12BA2D8624FA4F6E00CCFBB0 /* WallCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D8524FA4F6E00CCFBB0 /* WallCollectionView.swift */; };
+		12BA2D8824FA4F8700CCFBB0 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D8724FA4F8700CCFBB0 /* TagView.swift */; };
+		12BA2D8A24FA527600CCFBB0 /* Appdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BA2D8924FA527600CCFBB0 /* Appdelegate.swift */; };
+		12F9BC6E24FB53C500D30494 /* AttractionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9BC6D24FB53C500D30494 /* AttractionViewModel.swift */; };
+		12F9BC7024FB547900D30494 /* SearchLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9BC6F24FB547900D30494 /* SearchLocationView.swift */; };
+		12F9BC7625026A9E00D30494 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9BC7525026A9E00D30494 /* MapView.swift */; };
+		12F9BC7A25026F9400D30494 /* LocationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9BC7925026F9400D30494 /* LocationRowView.swift */; };
+		12F9BC7C2502718300D30494 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9BC7B2502718300D30494 /* LocationMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005CA576CCB9A73DD8FAFEB7 /* Pods-MSscheduleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSscheduleTests.release.xcconfig"; path = "Target Support Files/Pods-MSscheduleTests/Pods-MSscheduleTests.release.xcconfig"; sourceTree = "<group>"; };
 		12BA2D0C24FA352300CCFBB0 /* MSschedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSschedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BA2D0F24FA352300CCFBB0 /* MSscheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSscheduleApp.swift; sourceTree = "<group>"; };
-		12BA2D1124FA352300CCFBB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12BA2D1324FA352300CCFBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12BA2D1624FA352300CCFBB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12BA2D1824FA352300CCFBB0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +68,29 @@
 		12BA2D2D24FA352400CCFBB0 /* MSscheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSscheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BA2D3124FA352400CCFBB0 /* MSscheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSscheduleUITests.swift; sourceTree = "<group>"; };
 		12BA2D3324FA352400CCFBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12BA2D6624FA4AF300CCFBB0 /* TravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelView.swift; sourceTree = "<group>"; };
+		12BA2D6824FA4B8200CCFBB0 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		12BA2D6A24FA4BAE00CCFBB0 /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
+		12BA2D7324FA4CFC00CCFBB0 /* LocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		12BA2D7524FA4DD700CCFBB0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		12BA2D7924FA4E0D00CCFBB0 /* NetWorkClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkClass.swift; sourceTree = "<group>"; };
+		12BA2D7B24FA4E3E00CCFBB0 /* IGviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGviewModel.swift; sourceTree = "<group>"; };
+		12BA2D7D24FA4E6D00CCFBB0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		12BA2D8124FA4EE100CCFBB0 /* WallCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallCollectionViewController.swift; sourceTree = "<group>"; };
+		12BA2D8324FA4F3A00CCFBB0 /* WallCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallCollectionViewCell.swift; sourceTree = "<group>"; };
+		12BA2D8524FA4F6E00CCFBB0 /* WallCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallCollectionView.swift; sourceTree = "<group>"; };
+		12BA2D8724FA4F8700CCFBB0 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		12BA2D8924FA527600CCFBB0 /* Appdelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appdelegate.swift; sourceTree = "<group>"; };
+		12F9BC6D24FB53C500D30494 /* AttractionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionViewModel.swift; sourceTree = "<group>"; };
+		12F9BC6F24FB547900D30494 /* SearchLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationView.swift; sourceTree = "<group>"; };
+		12F9BC7525026A9E00D30494 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		12F9BC7925026F9400D30494 /* LocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRowView.swift; sourceTree = "<group>"; };
+		12F9BC7B2502718300D30494 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		1CF785F6AC3BF3A13760FFC5 /* Pods-MSschedule-MSscheduleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSschedule-MSscheduleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MSschedule-MSscheduleUITests/Pods-MSschedule-MSscheduleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		889ADA966F20039F2BC8F8EE /* Pods-MSscheduleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSscheduleTests.debug.xcconfig"; path = "Target Support Files/Pods-MSscheduleTests/Pods-MSscheduleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBD43F2060ECEDF6CE65C2D /* Pods-MSschedule-MSscheduleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSschedule-MSscheduleUITests.release.xcconfig"; path = "Target Support Files/Pods-MSschedule-MSscheduleUITests/Pods-MSschedule-MSscheduleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1A26EC363FB400DD9F50D52 /* Pods-MSschedule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSschedule.release.xcconfig"; path = "Target Support Files/Pods-MSschedule/Pods-MSschedule.release.xcconfig"; sourceTree = "<group>"; };
+		E273DAAFF4038D6661B99FD5 /* Pods-MSschedule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSschedule.debug.xcconfig"; path = "Target Support Files/Pods-MSschedule/Pods-MSschedule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12BA2D4324FA430400CCFBB0 /* KingfisherSwiftUI in Frameworks */,
+				12BA2D4124FA430400CCFBB0 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +127,7 @@
 				12BA2D2524FA352400CCFBB0 /* MSscheduleTests */,
 				12BA2D3024FA352400CCFBB0 /* MSscheduleUITests */,
 				12BA2D0D24FA352300CCFBB0 /* Products */,
+				351716BE94378493A13EE95B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +144,12 @@
 		12BA2D0E24FA352300CCFBB0 /* MSschedule */ = {
 			isa = PBXGroup;
 			children = (
+				12BA2D7224FA4C7A00CCFBB0 /* SubView */,
+				12BA2D7124FA4C7000CCFBB0 /* ViewController */,
+				12BA2D7024FA4C5F00CCFBB0 /* ViewModel */,
+				12BA2D6F24FA4C5800CCFBB0 /* View */,
+				12BA2D6E24FA4C4300CCFBB0 /* DataModel */,
 				12BA2D0F24FA352300CCFBB0 /* MSscheduleApp.swift */,
-				12BA2D1124FA352300CCFBB0 /* ContentView.swift */,
 				12BA2D1324FA352300CCFBB0 /* Assets.xcassets */,
 				12BA2D1824FA352300CCFBB0 /* Persistence.swift */,
 				12BA2D1D24FA352300CCFBB0 /* Info.plist */,
@@ -136,6 +185,72 @@
 			path = MSscheduleUITests;
 			sourceTree = "<group>";
 		};
+		12BA2D6E24FA4C4300CCFBB0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D8324FA4F3A00CCFBB0 /* WallCollectionViewCell.swift */,
+				12BA2D6A24FA4BAE00CCFBB0 /* DataStructure.swift */,
+				12BA2D7524FA4DD700CCFBB0 /* LocationManager.swift */,
+				12BA2D7924FA4E0D00CCFBB0 /* NetWorkClass.swift */,
+				12BA2D8924FA527600CCFBB0 /* Appdelegate.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		12BA2D6F24FA4C5800CCFBB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D8724FA4F8700CCFBB0 /* TagView.swift */,
+				12BA2D7D24FA4E6D00CCFBB0 /* Main.storyboard */,
+				12BA2D7324FA4CFC00CCFBB0 /* LocationView.swift */,
+				12F9BC6F24FB547900D30494 /* SearchLocationView.swift */,
+				12F9BC7B2502718300D30494 /* LocationMapView.swift */,
+				12BA2D6624FA4AF300CCFBB0 /* TravelView.swift */,
+				12BA2D6824FA4B8200CCFBB0 /* MotherView.swift */,
+				12F9BC7525026A9E00D30494 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12BA2D7024FA4C5F00CCFBB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D7B24FA4E3E00CCFBB0 /* IGviewModel.swift */,
+				12F9BC6D24FB53C500D30494 /* AttractionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		12BA2D7124FA4C7000CCFBB0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				12BA2D8124FA4EE100CCFBB0 /* WallCollectionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		12BA2D7224FA4C7A00CCFBB0 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				12F9BC7925026F9400D30494 /* LocationRowView.swift */,
+				12BA2D8524FA4F6E00CCFBB0 /* WallCollectionView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		351716BE94378493A13EE95B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E273DAAFF4038D6661B99FD5 /* Pods-MSschedule.debug.xcconfig */,
+				B1A26EC363FB400DD9F50D52 /* Pods-MSschedule.release.xcconfig */,
+				1CF785F6AC3BF3A13760FFC5 /* Pods-MSschedule-MSscheduleUITests.debug.xcconfig */,
+				9FBD43F2060ECEDF6CE65C2D /* Pods-MSschedule-MSscheduleUITests.release.xcconfig */,
+				889ADA966F20039F2BC8F8EE /* Pods-MSscheduleTests.debug.xcconfig */,
+				005CA576CCB9A73DD8FAFEB7 /* Pods-MSscheduleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,15 +258,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12BA2D3624FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSschedule" */;
 			buildPhases = (
+				EDA8F496B640D029D2BD1931 /* [CP] Check Pods Manifest.lock */,
 				12BA2D0824FA352300CCFBB0 /* Sources */,
 				12BA2D0924FA352300CCFBB0 /* Frameworks */,
 				12BA2D0A24FA352300CCFBB0 /* Resources */,
+				989995631D1CC9233162FDF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MSschedule;
+			packageProductDependencies = (
+				12BA2D4024FA430400CCFBB0 /* Kingfisher */,
+				12BA2D4224FA430400CCFBB0 /* KingfisherSwiftUI */,
+			);
 			productName = MSschedule;
 			productReference = 12BA2D0C24FA352300CCFBB0 /* MSschedule.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12BA2D3924FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSscheduleTests" */;
 			buildPhases = (
+				227A6E756508E40D3C61EBF3 /* [CP] Check Pods Manifest.lock */,
 				12BA2D1E24FA352400CCFBB0 /* Sources */,
 				12BA2D1F24FA352400CCFBB0 /* Frameworks */,
 				12BA2D2024FA352400CCFBB0 /* Resources */,
@@ -178,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12BA2D3C24FA352400CCFBB0 /* Build configuration list for PBXNativeTarget "MSscheduleUITests" */;
 			buildPhases = (
+				422BF2BFCF7FB7D56051A3C2 /* [CP] Check Pods Manifest.lock */,
 				12BA2D2924FA352400CCFBB0 /* Sources */,
 				12BA2D2A24FA352400CCFBB0 /* Frameworks */,
 				12BA2D2B24FA352400CCFBB0 /* Resources */,
+				C30FDD6C20E196446E3E4428 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +347,9 @@
 				Base,
 			);
 			mainGroup = 12BA2D0324FA352300CCFBB0;
+			packageReferences = (
+				12BA2D3F24FA430400CCFBB0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 12BA2D0D24FA352300CCFBB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12BA2D7E24FA4E6D00CCFBB0 /* Main.storyboard in Resources */,
 				12BA2D1724FA352300CCFBB0 /* Preview Assets.xcassets in Resources */,
 				12BA2D1424FA352300CCFBB0 /* Assets.xcassets in Resources */,
 			);
@@ -260,15 +388,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		227A6E756508E40D3C61EBF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSscheduleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		422BF2BFCF7FB7D56051A3C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSschedule-MSscheduleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		989995631D1CC9233162FDF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSschedule/Pods-MSschedule-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSschedule/Pods-MSschedule-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSschedule/Pods-MSschedule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C30FDD6C20E196446E3E4428 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSschedule-MSscheduleUITests/Pods-MSschedule-MSscheduleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSschedule-MSscheduleUITests/Pods-MSschedule-MSscheduleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSschedule-MSscheduleUITests/Pods-MSschedule-MSscheduleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA8F496B640D029D2BD1931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSschedule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12BA2D0824FA352300CCFBB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				12BA2D1C24FA352300CCFBB0 /* MSschedule.xcdatamodeld in Sources */,
+				12BA2D6924FA4B8200CCFBB0 /* MotherView.swift in Sources */,
+				12F9BC7C2502718300D30494 /* LocationMapView.swift in Sources */,
+				12BA2D7A24FA4E0D00CCFBB0 /* NetWorkClass.swift in Sources */,
+				12BA2D6B24FA4BAE00CCFBB0 /* DataStructure.swift in Sources */,
+				12F9BC7A25026F9400D30494 /* LocationRowView.swift in Sources */,
+				12BA2D8624FA4F6E00CCFBB0 /* WallCollectionView.swift in Sources */,
 				12BA2D1924FA352300CCFBB0 /* Persistence.swift in Sources */,
-				12BA2D1224FA352300CCFBB0 /* ContentView.swift in Sources */,
+				12BA2D8224FA4EE100CCFBB0 /* WallCollectionViewController.swift in Sources */,
+				12BA2D8A24FA527600CCFBB0 /* Appdelegate.swift in Sources */,
+				12BA2D8424FA4F3A00CCFBB0 /* WallCollectionViewCell.swift in Sources */,
+				12F9BC6E24FB53C500D30494 /* AttractionViewModel.swift in Sources */,
+				12F9BC7024FB547900D30494 /* SearchLocationView.swift in Sources */,
+				12BA2D7624FA4DD700CCFBB0 /* LocationManager.swift in Sources */,
+				12BA2D7424FA4CFC00CCFBB0 /* LocationView.swift in Sources */,
 				12BA2D1024FA352300CCFBB0 /* MSscheduleApp.swift in Sources */,
+				12F9BC7625026A9E00D30494 /* MapView.swift in Sources */,
+				12BA2D8824FA4F8700CCFBB0 /* TagView.swift in Sources */,
+				12BA2D7C24FA4E3E00CCFBB0 /* IGviewModel.swift in Sources */,
+				12BA2D6724FA4AF300CCFBB0 /* TravelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,7 +657,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -422,6 +669,7 @@
 		};
 		12BA2D3724FA352400CCFBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E273DAAFF4038D6661B99FD5 /* Pods-MSschedule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +692,7 @@
 		};
 		12BA2D3824FA352400CCFBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A26EC363FB400DD9F50D52 /* Pods-MSschedule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +715,7 @@
 		};
 		12BA2D3A24FA352400CCFBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889ADA966F20039F2BC8F8EE /* Pods-MSscheduleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +738,7 @@
 		};
 		12BA2D3B24FA352400CCFBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005CA576CCB9A73DD8FAFEB7 /* Pods-MSscheduleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +761,7 @@
 		};
 		12BA2D3D24FA352400CCFBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF785F6AC3BF3A13760FFC5 /* Pods-MSschedule-MSscheduleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +782,7 @@
 		};
 		12BA2D3E24FA352400CCFBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBD43F2060ECEDF6CE65C2D /* Pods-MSschedule-MSscheduleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +841,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12BA2D3F24FA430400CCFBB0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12BA2D4024FA430400CCFBB0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12BA2D3F24FA430400CCFBB0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		12BA2D4224FA430400CCFBB0 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12BA2D3F24FA430400CCFBB0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		12BA2D1A24FA352300CCFBB0 /* MSschedule.xcdatamodeld */ = {

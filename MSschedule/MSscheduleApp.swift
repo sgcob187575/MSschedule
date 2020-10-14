@@ -10,11 +10,11 @@ import SwiftUI
 @main
 struct MSscheduleApp: App {
     let persistenceController = PersistenceController.shared
-
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MotherView().environmentObject(ViewRouter())                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
